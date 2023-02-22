@@ -1,7 +1,7 @@
 # Test-Test
 Setting up RSpec
 # This assumes you have Ruby & RVM installed. If you don't, visit:
-# https://rvm.io/ to install RVM.
+https://rvm.io/ to install RVM.
 
 # First, create a directory for your project
 ; mkdir your-project-directory
