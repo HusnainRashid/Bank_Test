@@ -1,7 +1,16 @@
 # Test-Test
-Setting up RSpec
+## Guidance
+
+RSpec is a kind of programming tool called a test framework. It is written for
+use with the programming language Ruby. We can use it to test that our systems
+do what they are supposed to do. We can also use it to build our test-driving
+practice.
+
+To set up a new RSpec project:
+
+```shell
 # This assumes you have Ruby & RVM installed. If you don't, visit:
-https://rvm.io/ to install RVM.
+# https://rvm.io/ to install RVM.
 
 # First, create a directory for your project
 ; mkdir your-project-directory
@@ -39,6 +48,8 @@ https://rvm.io/ to install RVM.
 ; git remote add origin YOUR_REMOTE_ADDRESS
 ; git branch -M main
 ; git push -u origin main
+```
+
 
 This code has been structured in a very basic way, with being able to access through the terminal. There are 2 files, one with direct user interaction and
 another with the interaction through the code.
