@@ -6,7 +6,8 @@ class BankAccount
 
   def deposit(cash, date)
     @currentBalance += cash
-    full_record = "#{date} || #{cash} || || #{@currentBalance}
+    full_record =
+      "#{date} || #{cash} || || #{@currentBalance}
 "
     @records << full_record
     return @currentBalance
@@ -14,15 +15,18 @@ class BankAccount
 
   def withdraw(cash, date)
     @currentBalance -= cash
-    full_record = "#{date} || || #{cash} || #{@currentBalance}
+    full_record =
+      "#{date} || || #{cash} || #{@currentBalance}
 "
     @records << full_record
     return @currentBalance
   end
 
   def statement()
-    return "date || credit || debit || balance
+    return(
+      "date || credit || debit || balance
 " + @records
+    )
   end
 end
 
